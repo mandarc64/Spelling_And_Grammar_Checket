@@ -3,7 +3,11 @@ import streamlit as st
 
 st.title('Spelling & Grammar Checker')
 text = st.text_area("Enter Text:", value='', height=None, max_chars=None, key=None)
-from gingerit.gingerit import GingerIt
+
+#relative import 
+from .local.gingerit import GingerIt 
+
+#from gingerit.gingerit import GingerIt
 parser = GingerIt()
 if st.button('Correct Sentence'):
     if text == '':

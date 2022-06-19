@@ -1,2 +1,1 @@
-gingerit==0.8.2
 cloudscraper==1.2.60
