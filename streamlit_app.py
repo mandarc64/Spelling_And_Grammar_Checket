@@ -1,4 +1,4 @@
-from gingerit.gingerit import GingerIt
+# from gingerit.gingerit import GingerIt
 import streamlit as st
 
 st.title('Spelling & Grammar Checker')
